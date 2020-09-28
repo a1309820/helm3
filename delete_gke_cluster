@@ -1,0 +1,1 @@
+gcloud container clusters delete k8s-1 --async --region us-central1-c
