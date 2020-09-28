@@ -1,5 +1,5 @@
 #!/bin/bash
-ng build --prod 
+#ng build --prod 
 docker build  -f Dockerfile -t frontend .
-docker tag frontend phico/frontend:1.1
-docker push phico/frontend:1.1
+docker tag frontend gcr.io/k8s-test-1-288222/frontend:1.1
+docker push gcr.io/k8s-test-1-288222/frontend:1.1
